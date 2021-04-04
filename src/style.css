@@ -1,12 +1,11 @@
 body {
  margin: 0;
- font-size: 1rem;
  font-weight: 400;
  line-height: 1.5;
  color: #212529;
  text-align: left;
  background-color: #fff;
- display: block;
+
 }
 
 h1 {
@@ -67,6 +66,7 @@ li {
   height: calc(1.5em .75rem 2px);
   cursor: pointer;
   display: inline-block;
+  width: 120px;
 }
 
 .button-location {
@@ -115,14 +115,14 @@ li {
   text-decoration: none;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-    color: -webkit-link;
-    cursor: pointer;
-}
+
 .fahrenheit {
   text-decoration: none;  
   text-align: center;
+}
+
+h4 {
+   font-family: monospace;
+   font-size:xx-small;
+    text-align: center;
 }
